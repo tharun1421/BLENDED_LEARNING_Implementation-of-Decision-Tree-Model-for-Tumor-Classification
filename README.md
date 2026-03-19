@@ -25,8 +25,8 @@ To implement and evaluate a Decision Tree model to classify tumors as benign or 
 ```py
 /*
 Program to  implement a Decision Tree model for tumor classification.
-Developed by: BALAMURUGAN S
-RegisterNumber:  212225240020
+Developed by: THARUN D
+RegisterNumber:  212225240171
 */
 
 # Import the necessary libraries
@@ -64,8 +64,8 @@ y_pred = model.predict(X_test)
 
 # Print the accuracy and classification metrics for the model
 accuracy = accuracy_score(y_test, y_pred)
-print("\nName: Balamurugan S")
-print("Reg No: 212225240020")
+print("\nName: THARUN D")
+print("Reg No: 212225240171")
 print("\nAccuracy:", accuracy)
 print("Classification Report:\n", classification_report(y_test, y_pred))
 
